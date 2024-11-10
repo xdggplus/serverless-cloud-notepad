@@ -14,7 +14,7 @@ router.get('/', ({ url }) => {
     return Response.redirect(`${url}${newHash}`, 302)
 })
 // 处理 /list 路由
-router.get('/list-rand-list-all-all-test-view', async () => {
+router.get('/SECURIT_LIST_PATH_WITH', async () => {
     const keys = await NOTES.list() // 获取所有笔记的键
 
     // 生成表格行，每行显示每个键的所有字段信息
