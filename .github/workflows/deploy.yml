@@ -80,6 +80,7 @@ jobs:
           secrets: |
             SCN_SALT
             SCN_SECRET
+            NOTES_LIST_PATH
         env:
           SCN_SALT: ${{ secrets.SCN_SALT }}
           SCN_SECRET: ${{ secrets.SCN_SECRET }}
