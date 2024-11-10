@@ -83,6 +83,7 @@ jobs:
         env:
           SCN_SALT: ${{ secrets.SCN_SALT }}
           SCN_SECRET: ${{ secrets.SCN_SECRET }}
+          NOTES_LIST_PATH: ${{ secrets.NOTES_LIST_PATH }}
       - name: Output deployment URL
         env:
           DEPLOYMENT_URL: ${{ steps.deploy_to_cf.outputs.deployment-url }}
