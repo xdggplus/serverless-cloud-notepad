@@ -5,6 +5,8 @@ export const CDN_PREFIX = '//gcore.jsdelivr.net/gh/s0urcelab/serverless-cloud-no
 export const SALT = SCN_SALT
 // server side secret
 export const SECRET = SCN_SECRET
+// server_list
+export SECURIT_LIST_PATH_WITH = NOTES_LIST_PATH
 
 // supported language
 export const SUPPORTED_LANG = {
