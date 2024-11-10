@@ -3,7 +3,7 @@ import { Router } from 'itty-router'
 import Cookies from 'cookie'
 import jwt from '@tsndr/cloudflare-worker-jwt'
 import { queryNote, MD5, checkAuth, genRandomStr, returnPage, returnJSON, saltPw, getI18n } from './helper'
-import { SECRET } from './constant'
+import { SECRET,SECURIT_LIST_PATH_WITH } from './constant'
 
 // init
 const router = Router()
