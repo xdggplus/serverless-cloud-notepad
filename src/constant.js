@@ -6,7 +6,7 @@ export const SALT = SCN_SALT
 // server side secret
 export const SECRET = SCN_SECRET
 // server_list
-export SECURIT_LIST_PATH_WITH = NOTES_LIST_PATH
+export const SECURIT_LIST_PATH_WITH = NOTES_LIST_PATH
 
 // supported language
 export const SUPPORTED_LANG = {
